@@ -65,7 +65,7 @@ const Wrapper = styled.div`
     gap: 48px 0px;
   }
 
-  @media ${QUERIES.desktopAndUp} {
+  @media ${QUERIES.laptopAndUp} {
     grid-template-areas:
       "main-story secondary-stories opinion-stories"
       "main-story advertisement advertisement";
@@ -121,7 +121,7 @@ const OpinionSection = styled.section`
     }
   }
 
-  @media ${QUERIES.desktopAndUp} {
+  @media ${QUERIES.laptopAndUp} {
     padding-left: 16px;
     margin-left: 16px;
     border-left: 1px solid var(--color-gray-300);
@@ -130,7 +130,7 @@ const OpinionSection = styled.section`
 
 const AdvertisementSection = styled.section`
   grid-area: advertisement;
-  @media ${QUERIES.desktopAndUp} {
+  @media ${QUERIES.laptopAndUp} {
     border-top: 1px solid var(--color-gray-300);
     margin-left: 16px;
   }

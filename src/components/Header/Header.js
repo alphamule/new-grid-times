@@ -52,7 +52,7 @@ const SuperHeader = styled.div`
   background: var(--color-gray-900);
   color: white;
 
-  @media ${QUERIES.desktopAndUp} {
+  @media ${QUERIES.laptopAndUp} {
     display: none;
   }
 `;
@@ -102,7 +102,7 @@ const MainHeader = styled(MaxWidthWrapper)`
     display: none;
   }
 
-  @media ${QUERIES.desktopAndUp} {
+  @media ${QUERIES.laptopAndUp} {
     justify-content: space-between;
 
     ${SubscribeGroup} {
